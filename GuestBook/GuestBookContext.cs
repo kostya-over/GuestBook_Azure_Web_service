@@ -15,18 +15,16 @@ public partial class GuestBookContext : DbContext
 
     public virtual DbSet<Review> Reviews { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
-        if (!optionsBuilder.IsConfigured)
-        {
-            string dir = Environment.CurrentDirectory;
-            string path = string.Empty;
-            path = Path.Combine(Environment.CurrentDirectory, "GuestBook.db");
-            optionsBuilder.UseSqlite($"Filename={path}");
-        }
-    }
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-M0PBJGB8;Initial Catalog=GuestBook;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Review>(entity =>
+        {
+            entity.HasKey(e => e.ReviewId).HasName("PK__Reviews__74BC79CEE4F815D8");
+        });
+
         OnModelCreatingPartial(modelBuilder);
     }
 

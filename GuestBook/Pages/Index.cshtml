@@ -49,7 +49,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h6 class="card-subtitle mb-2 text-body-secondary">@review.UserName</h6>
-                        <p class="date">@review.DateOfCreation.ToString("dd/MM/yyyy")</p>
+                        <p class="date">@review.DateOfCreation?.ToString("dd/MM/yyyy")</p>
                         <p class="card-text">@review.Message</p>
                     </div>
                 </div>
