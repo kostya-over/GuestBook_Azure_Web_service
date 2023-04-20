@@ -1,0 +1,63 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+    <div class=" py-2 text-center">
+        <div class="col-lg-6 mx-auto">
+            <div class="d-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Add
+                </button>
+            </div>
+        </div>
+
+        <div class="modal" id="exampleModal" aria-labelledby="exampleModalLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <form method="POST">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Add review</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label class="form-label">User name</label>
+                                <input type="text" asp-for="@Model.Review.UserName" class="form-control">
+                                <span asp-validation-for="@Model.Review.UserName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="@Model.Review.Message" class="form-label">Message</label>
+                                <textarea rows="3" asp-for="@Model.Review.Message" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-submit">Post</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        @foreach (var review in Model.Reviews)
+        {
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-2 text-body-secondary">@review.UserName</h6>
+                        <p class="date">@review.DateOfCreation.ToString("dd/MM/yyyy")</p>
+                        <p class="card-text">@review.Message</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

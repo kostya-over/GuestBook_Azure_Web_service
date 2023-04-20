@@ -1,0 +1,102 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #F9FAFF;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 1077px;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  background-color: #778AFF;
+  width: 110px;
+  height: 42px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn:hover {
+  background-color: #99A7FF;
+  color: #fff;
+}
+
+.btn-submit {
+  color: #806BF8;
+  background-color: #fff;
+  border: 2px solid #F3F4F7;
+}
+
+.btn-submit:hover {
+  background-color: #F3F4F7;
+  color: #806BF8;
+}
+
+.card {
+  margin-bottom: 20px;
+  height: 330px;
+  width: 320px;
+  overflow-y: auto;
+  border-radius: 24px;
+  border-style: none;
+}
+
+.card-body {
+  padding: 25px 25px;
+}
+
+.card::-webkit-scrollbar {
+  background-color: #fff;
+  width: 10px;
+}
+
+.card::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.card::-webkit-scrollbar-thumb{
+  background-color: #babac0;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.card::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.modal-content {
+  border-radius: 24px;
+}
+
+.card-subtitle {
+  font-weight: bold;
+}
+
+.date {
+  color: #8F96B4;
+}

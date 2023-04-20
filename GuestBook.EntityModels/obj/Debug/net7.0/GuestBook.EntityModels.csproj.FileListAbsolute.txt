@@ -1,0 +1,14 @@
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\bin\Debug\net7.0\GuestBook.EntityModels.deps.json
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\bin\Debug\net7.0\GuestBook.EntityModels.runtimeconfig.json
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\bin\Debug\net7.0\GuestBook.EntityModels.dll
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\bin\Debug\net7.0\GuestBook.EntityModels.pdb
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\GuestBook.EntityModels.csproj.AssemblyReference.cache
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\GuestBook.EntityModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\GuestBook.EntityModels.AssemblyInfoInputs.cache
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\GuestBook.EntityModels.AssemblyInfo.cs
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\GuestBook.EntityModels.csproj.CoreCompileInputs.cache
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\GuestBook.EntityModels.dll
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\refint\GuestBook.EntityModels.dll
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\GuestBook.EntityModels.pdb
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\GuestBook.EntityModels.genruntimeconfig.cache
+D:\Academy\ThirdCourse\Second_semester\Хмарне програмування\Лабораторна 3\GuestBook\GuestBook.EntityModels\obj\Debug\net7.0\ref\GuestBook.EntityModels.dll
