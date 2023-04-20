@@ -1,9 +1,9 @@
-#GuestBook_Azure_Web_service
+# GuestBook_Azure_Web_service
 ================
 
 GuestBook is a web service that provides a platform for hosts to invite guests to leave comments, whishes, and messages in a central location that can be accessed and viewed by the host and all attendees. 
 
-##Technologies:
+## Technologies:
 =============
 *ASP.NET Core Web*<br>
 *Razor Pages*<br>
@@ -11,7 +11,7 @@ GuestBook is a web service that provides a platform for hosts to invite guests t
 *Sqlite*<br>
 *Azure*
 
-Service available by this link:  guestbook-pgasa-lab3.azurewebsites.net
+Service available by this link:  https://guestbook-pgasa-lab3.azurewebsites.net/
 
 What I learned
 -------------------
