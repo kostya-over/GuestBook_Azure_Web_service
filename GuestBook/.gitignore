@@ -10,6 +10,22 @@
 *.user
 *.userosscache
 *.sln.docstates
+bin/
+obj/
+Debug/
+Release/
+packages/
+*.suo
+*.user
+*.vspscc
+*.vssscc
+*.cache
+*.log
+*.bak
+*.dll
+*.pdb
+*.cache
+*.sln.docstates
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
