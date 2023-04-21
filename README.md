@@ -7,8 +7,9 @@ GuestBook is a web service that provides a platform for hosts to invite guests t
 *ASP.NET Core Web*<br>
 *Razor Pages*<br>
 *EntityFrameworkCore*<br>
-*Sqlite*<br>
-*Azure*
+*MS SqlServer*<br>
+*Azure Web service*<br>
+*Azure Sql Database*
 
 Service available by this link:  https://guestbook-pgasa-lab3.azurewebsites.net/
 
