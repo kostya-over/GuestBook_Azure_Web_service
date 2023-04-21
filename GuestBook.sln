@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook", "GuestBook\GuestBook.csproj", "{3208673C-8FE4-461F-A656-66F33DF43D6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook.EntityModels", "GuestBook.EntityModels\GuestBook.EntityModels.csproj", "{F09391FD-764A-4F47-B8BF-1612077BF43D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{3208673C-8FE4-461F-A656-66F33DF43D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3208673C-8FE4-461F-A656-66F33DF43D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3208673C-8FE4-461F-A656-66F33DF43D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09391FD-764A-4F47-B8BF-1612077BF43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09391FD-764A-4F47-B8BF-1612077BF43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09391FD-764A-4F47-B8BF-1612077BF43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09391FD-764A-4F47-B8BF-1612077BF43D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

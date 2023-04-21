@@ -1,7 +1,15 @@
-using GuestBook;
+using GuestBook.EntityModels;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<GuestBookContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
 builder.Services.AddDbContext<GuestBookContext>();
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 

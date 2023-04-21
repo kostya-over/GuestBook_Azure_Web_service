@@ -1,15 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GuestBook;
+namespace GuestBook.EntityModels;
 
 public partial class Review
 {
     [Key]
     public int ReviewId { get; set; }
-    
-    [Required]
-    [StringLength(40)]
+
+    [Required] 
+    [StringLength(40)] 
     public string UserName { get; set; } = null!;
 
     public string? Message { get; set; }
